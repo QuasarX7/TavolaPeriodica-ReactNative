@@ -1,0 +1,1 @@
+# TavolaPeriodica-ReactNative
