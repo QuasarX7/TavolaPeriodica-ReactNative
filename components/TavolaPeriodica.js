@@ -134,7 +134,7 @@ class TavolaPeriodica extends React.Component {
         this.elementi.map(e => {
             if(e.numeroAtomico === 1 ){
                 e.colore = 'green'
-            }else if(e.numeroAtomico > 93 || e.numeroAtomico == 43 ){
+            }else if(e.numeroAtomico > 93 || e.numeroAtomico == 43 || e.numeroAtomico == 61){
                 e.colore = 'grey'
             }else if(e.gruppo === 1){
                 e.colore = '#FF6347'
